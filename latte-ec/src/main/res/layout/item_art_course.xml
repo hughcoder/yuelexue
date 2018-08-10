@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="150dp"
+    android:layout_height="120dp"
+    android:layout_marginBottom="2dp"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/image_art_course"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center"
+            tools:ignore="RtlHardcoded" />
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            >
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_art_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/white">
+
+            <com.joanzapata.iconify.widget.IconTextView
+                android:id="@+id/tv_eye"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="5dp"
+                android:text="{fa-eye}"
+                android:gravity="center"
+                android:textColor="@android:color/darker_gray"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_art_visit_num"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/tv_eye"
+                android:textColor="@android:color/darker_gray"
+                tools:ignore="RtlHardcoded" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/art_course_appointment"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:paddingRight="5dp"
+                android:textColor="@android:color/darker_gray"
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+            <com.joanzapata.iconify.widget.IconTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:paddingLeft="120dp"
+                android:layout_toLeftOf="@+id/art_course_appointment"
+                android:gravity="center"
+                android:text="{fa-comment}"
+                android:textColor="@android:color/darker_gray" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.LinearLayoutCompat>

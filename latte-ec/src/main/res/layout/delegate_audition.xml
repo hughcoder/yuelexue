@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center">
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingTop="6dp"
+            android:text="我的试听"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+    </android.support.v7.widget.Toolbar>
+
+    <!--按钮-->
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_overbook"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="已预约"
+            android:gravity="center"
+            android:textColor="#55abf5"
+            android:background="@drawable/btn_border_overbook"
+            android:layout_marginLeft="20dp"
+            />
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:gravity="center" />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_overaudition"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="已试听"
+            android:gravity="center"
+            android:textColor="#55abf5"
+            android:background="@android:color/white"
+            />
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:gravity="center" />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_overdue"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="已过期"
+            android:gravity="center"
+            android:textColor="#55abf5"
+            android:background="@drawable/btn_border_overdue"
+            android:layout_marginRight="20dp"
+            />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        >
+
+    </FrameLayout>
+</LinearLayout>

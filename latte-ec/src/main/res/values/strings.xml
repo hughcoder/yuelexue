@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LatteEC</string>
+    <string name="info">培训机构，以学历教育或成人继续教育为目的的教育培训机构需要有场地的要求及师资的要求，需要教育主管部门给予认证并且取得社会力量办学资格方可营业，其培训课程价格需要核算并报教育部门批准，增加课程或改变收费需要向教育部门申请并获得批准后才可改变。</string>
+    <string name="get_code">获取验证码</string>
+
+</resources>

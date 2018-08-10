@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_overbook_mask"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="还没有预约课程，去预约吧！"
+        android:textSize="20sp"
+        android:textColor="@color/app_main"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_overbook"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</android.support.v7.widget.LinearLayoutCompat>

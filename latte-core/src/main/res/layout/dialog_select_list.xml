@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/dialog_okcancle_bottombg"
+              android:orientation="vertical"
+              android:paddingBottom="10dp"
+              android:paddingLeft="7dp"
+              android:paddingRight="7dp"
+              android:paddingTop="10dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="预约时间选择"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="23dp"
+        android:textStyle="bold"/>
+    <Button
+        android:text="CANCEL"
+        android:textColor="#111"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_dialog_cancel"
+        />
+</RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#CDCDCD"/>
+    <ListView
+        android:id="@+id/lv_pop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#fff"
+        android:dividerHeight="0.5dp"
+        android:listSelector="#00000000"
+        android:overScrollMode="never"
+        android:scrollbars="none"/>
+
+</LinearLayout>

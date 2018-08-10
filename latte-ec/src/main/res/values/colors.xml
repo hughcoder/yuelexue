@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#1111</color>
+    <color name="we_chat_black">#323232</color>
+    <color name="item_background">#F1F1F1</color>
+    <color name="app_main">@android:color/holo_orange_dark</color>
+    <color name="blue">#0000ff</color>
+    <!-- 蓝色 -->
+    <color name="mediumblue">#0000cd</color>
+    <!-- 中兰色 -->
+    <color name="aqua">#00ffff</color>
+    <!-- 浅绿色 -->
+    <color name="bg_gray">#8C8C8C</color>
+    <color name="app_color">#55abf5</color>
+</resources>

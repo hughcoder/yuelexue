@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="还没有已试听课程"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/app_main"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_overaudition"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+</android.support.v7.widget.LinearLayoutCompat>
