@@ -1,0 +1,1 @@
+include ':example', ':latte-core', ':latte-annotations', ':latte-ec', ':latte-compiler', ':latte-ui', ':teacherapp'
